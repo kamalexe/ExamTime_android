@@ -36,6 +36,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // Other: Removal of Debug Tags from Screens in app #66
       debugShowCheckedModeBanner: false,
       title: 'ExamTime',
       theme: ThemeData(
